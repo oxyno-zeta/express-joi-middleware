@@ -1,5 +1,5 @@
 /*
- * Author: Alexandre Havrileck (Oxyno-zeta) 
+ * Author: Alexandre Havrileck (Oxyno-zeta)
  * Date: 03/07/16
  * Licence: See Readme
  */
@@ -7,21 +7,20 @@
 /* ************************************* */
 /* ********       REQUIRE       ******** */
 /* ************************************* */
-var fs = require('fs');
-var gulp = require('gulp');
+const fs = require('fs');
+const gulp = require('gulp');
 // Constants
-var path = './gulp/';
+const path = './gulp/';
 
 try {
-	var directories = fs.readdirSync(path);
-	if (directories) {
-		directories.forEach(function (file) {
-			require(path + file);
-		});
-	}
+    const directories = fs.readdirSync(path);
+    if (directories) {
+        directories.forEach((file) => {
+            require(path + file);
+        });
+    }
 
-	gulp.task('default', ['backend:nodemon']);
-}
-catch (e){
-	console.error(e);
+    gulp.task('default', ['tests']);
+} catch (e) {
+    console.error(e);
 }
