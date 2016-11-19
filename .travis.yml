@@ -1,0 +1,14 @@
+sudo: false
+
+language: node_js
+
+node_js:
+  - 6
+  - 7
+
+before_script:
+  - npm install -g gulp coveralls
+
+script:
+  - gulp tests && cat ./coverage/backend/lcov.info | coveralls
+

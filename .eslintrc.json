@@ -1,0 +1,21 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "es6": true,
+    "node": true,
+    "mocha": true
+  },
+  "rules": {
+    "indent": [
+      2,
+      4
+    ],
+    "no-use-before-define": [
+      0
+    ],
+    "max-len": [
+      2,
+      120
+    ]
+  }
+}
