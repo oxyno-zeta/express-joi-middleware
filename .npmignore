@@ -252,3 +252,5 @@ gulp/
 .travis.yml
 circle.yml
 .gitignore
+gulpfile.js
+coverage/
