@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/oxyno-zeta/express-joi-middleware#readme",
   "devDependencies": {
+    "body-parser": "^1.15.2",
     "chai": "^3.5.0",
     "coveralls": "^2.11.15",
     "del": "^2.2.2",
@@ -37,7 +38,6 @@
     "gulp-nodemon": "^2.2.1",
     "gulp-tar": "^1.9.0",
     "mocha-lcov-reporter": "^1.2.0",
-    "mockery": "^2.0.0",
     "run-sequence": "^1.2.2",
     "supertest": "^2.0.1"
   },
