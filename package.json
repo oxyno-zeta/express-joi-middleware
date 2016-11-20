@@ -40,5 +40,8 @@
     "mockery": "^2.0.0",
     "run-sequence": "^1.2.2",
     "supertest": "^2.0.1"
+  },
+  "dependencies": {
+    "joi": "^10.0.1"
   }
 }
