@@ -254,3 +254,5 @@ circle.yml
 .gitignore
 gulpfile.js
 coverage/
+dev/
+nodemon.json

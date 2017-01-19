@@ -13,7 +13,9 @@
   "keywords": [
     "Express",
     "Joi",
-    "Middleware"
+    "Middleware",
+    "Validator",
+    "Validation"
   ],
   "author": "Oxyno-zeta",
   "license": "MIT",
@@ -42,6 +44,6 @@
     "supertest": "^2.0.1"
   },
   "dependencies": {
-    "joi": "^10.0.1"
+    "joi": "^10.2.0"
   }
 }
