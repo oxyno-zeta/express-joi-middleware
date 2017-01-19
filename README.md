@@ -62,10 +62,12 @@ A javascript object with these possible keys :
 
 #### joi
 This key is a possibility to pass a Joi instance if you want to pass an old (or new) Joi module version.
+
 Default value : Library version.
 
 #### joiOptions
 This key is for all [Joi options in validate](https://github.com/hapijs/joi/blob/master/API.md#validatevalue-schema-options-callback).
+
 Default value : {}.
 
 #### wantResponse
@@ -86,11 +88,14 @@ Default value : false (the library will 'next' error).
 
 #### overrideBody
 This option is here to override 'body' in request instead of creating a new key : 'validated'.
+
 Default value : false (the library will create a 'validated' key in request).
 
 #### validationCallback
 This option is here to provide a way to change the 'validation' callback.
+
 This option must be a function (a) that return another function (b).
+
 The first function (a) will have these parameters : 
 - req (request)
 - res (response)
@@ -98,7 +103,7 @@ The first function (a) will have these parameters :
 - options (options of the middleware)
 
 The second function (b) will have these parameters :
-
+TODO
 
 ## Thanks
 * My wife BH to support me doing this
