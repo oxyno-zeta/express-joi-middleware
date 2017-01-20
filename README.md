@@ -12,8 +12,8 @@ Implementation of [Joi](https://github.com/hapijs/joi) middleware for ExpressJS.
 
 ## Features
 - Joi validator middleware for ExpressJS
-- Fully customizable
-- Possible to pass your 'Joi' module
+- Fully customizable (Your can give your validation callback, Joi options, allow the middleware to respond Bad Request, ...)
+- Possible to give your 'Joi' module
 
 ## How to use
 ### Install
