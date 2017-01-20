@@ -77,6 +77,7 @@ function validationCallback(req, res, next, options) {
 function middleware(schema, options = optionsDefault) {
     return (req, res, next) => {
         // Test if schema exists
+        /* istanbul ignore if */
         if (!schema) {
             next();
         }
