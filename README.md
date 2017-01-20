@@ -103,7 +103,8 @@ The first function (a) will have these parameters :
 - options (options of the middleware)
 
 The second function (b) will have these parameters :
-TODO
+- err ([Joi Error](https://github.com/hapijs/joi/blob/master/API.md#errors))
+- value (The validated value with any type conversions and other modifiers applied (the input is left unchanged). See the callback "value" [here](https://github.com/hapijs/joi/blob/master/API.md#validatevalue-schema-options-callback))
 
 ## Thanks
 * My wife BH to support me doing this
