@@ -1,6 +1,8 @@
 Express Joi Middleware
 ======================
 
+[![Join the chat at https://gitter.im/express-joi-middleware/Lobby](https://badges.gitter.im/express-joi-middleware/Lobby.svg)](https://gitter.im/express-joi-middleware/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![Build Status](https://travis-ci.org/oxyno-zeta/express-joi-middleware.svg?branch=master)](https://travis-ci.org/oxyno-zeta/express-joi-middleware)
 [![Build Status](https://circleci.com/gh/oxyno-zeta/express-joi-middleware.png)](https://circleci.com/gh/oxyno-zeta/express-joi-middleware)
 [![npm](https://img.shields.io/npm/v/express-joi-middleware.svg)]()
