@@ -6,7 +6,7 @@ Express Joi Middleware
 [![Build Status](https://circleci.com/gh/oxyno-zeta/express-joi-middleware.png)](https://circleci.com/gh/oxyno-zeta/express-joi-middleware)
 [![npm](https://img.shields.io/npm/v/express-joi-middleware.svg)]()
 [![Dependency Status](https://gemnasium.com/badges/github.com/oxyno-zeta/express-joi-middleware.svg)](https://gemnasium.com/github.com/oxyno-zeta/express-joi-middleware)
-[![Coverage Status](https://coveralls.io/repos/github/oxyno-zeta/express-joi-middleware/badge.svg?branch=master)](https://coveralls.io/github/oxyno-zeta/express-joi-middleware?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/oxyno-zeta/express-joi-middleware/badge.svg?branch=master)](https://coveralls.io/github/oxyno-zeta/express-joi-middleware?branch=master) [![Greenkeeper badge](https://badges.greenkeeper.io/oxyno-zeta/express-joi-middleware.svg)](https://greenkeeper.io/)
 
 ## Description
 Implementation of [Joi](https://github.com/hapijs/joi) middleware for ExpressJS.
